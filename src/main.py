@@ -13,9 +13,10 @@ from preprocessor import Preprocessor
 
 class FilePaths:
     """Filenames and paths to data."""
-    fn_char_list = '../model/charList.txt'
-    fn_summary = '../model/summary.json'
+    fn_char_list = 'C:/Users/Alexej/Desktop/SimpleHTR/model/charList.txt'
+    fn_summary = 'C:/Users/Alexej/Desktop/SimpleHTR/model/summary.json'
     fn_corpus = '../data/corpus.txt'
+    
 
 
 def get_img_height() -> int:
